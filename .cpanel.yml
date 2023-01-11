@@ -1,0 +1,6 @@
+# Deploy GIT Automatically
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/silverliningnpl/mvh
+    - /bin/cp -R * $DEPLOYPATH
