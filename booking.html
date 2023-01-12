@@ -13,50 +13,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="booking.css">
+
+  <!-- jquery to load header -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-  <header class="header_wrapper">
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="images/Logo.png" class="img-fluid" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-stream navbar-toggler-icon"></i>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav menu-navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#rooms">Rooms</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#services">Services</a>
-            </li>
-
-
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-            <li class="nav-item mt-3 mt-lg-0">
-              <a class="main-btn" href="#">Book Direct & Save</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <header>    
   </header>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
@@ -287,6 +250,13 @@
       
     }
   </script>
+
+   <!-- load header -->
+   <script>
+    $(document).ready(function(){
+      $("header").load("header.html");
+    });
+    </script>
 
 </body>
 
