@@ -167,7 +167,7 @@ p {
   text-decoration: none;
   font-style: 'Poppins', sans-serif;
 }
-.header_wrapper .nav-item .nav-link.active,
+
 .header_wrapper .nav-item .nav-link:hover {
   color: #FF7F11;
   text-transform: none;
@@ -217,80 +217,10 @@ p {
   top: 0;
   left: 0;
   background: rgba(0,0,0,0.7);
-  z-index: 1;
-}
-
-/* .contact{
-    background: #111;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.contact .row{
-    display: flex;
-    background:var(--black);
-    flex-wrap: wrap;
-    gap:1rem;
-    padding-top: 30px;
-}
-
-.contact .row .map{
-    flex:1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-    
-}
-
-.contact .row form{
-    flex:1 1 45rem;
-    padding:5rem 1rem;
-    text-align: center;
-}
-
-.contact .row form h3{
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    color: #e58f00;
-}
-
-.contact .row form .inputBox{
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background:var(--bg);
-    border:var(--border);
+  z-index: 2;
 }
 
 
-
-.contact .row form .inputBox input{
-    width: 100%;
-    padding:2rem;
-    font-size: 1rem;
-    color:#fff;
-    text-transform: none;
-    background:none;
-}
-.contact .row form a {
-   
-    font-size: 1rem;
-  font-weight: 500;
-  color: white;
-  text-transform: none;
-  background-color: transparent;
-  border: .0625rem solid white;
-  padding: .375rem 1.875rem;
-  border-radius: 3.125rem;
-  line-height: 1.75rem;
-  display: inline-block;
-  transition: all 0.3s ease-out 0s;
-  }
-  .contact .row form a:hover {
-    
-    background-color: #3F84E5;
-  border-color: var(--secondary-color);
-  color: var(--text-white);
-  } */
   .my-form {
     color: #873600;
 }

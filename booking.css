@@ -160,7 +160,7 @@ p {
   text-transform: none;
 }
 
-.header_wrapper .nav-item .nav-link.active,
+
 .header_wrapper .nav-item .nav-link:hover {
   color: #FF7F11;
   text-transform: none;
